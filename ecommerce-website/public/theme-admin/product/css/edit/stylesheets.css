@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+
+    padding: 3% 2%;
+
+    border-radius: 5px;
+
+    margin: 20px auto;
+
+    scroll-padding: auto;
+
+    background: white;
+
+    position: relative;
+
+    top: 20%;
+
+    left: 1%;
+
+    width: 50%;
+
+    box-shadow: 0px 0px 30px -16px #000000d1;
+
+    border: .5px solid #ececec;
+
+    scroll-margin: initial;
+
+    scroll-behavior: smooth;
+}
+
+.form-container * {
+    margin: 10px 0;
+}
+
+label.form-check-label {
+    margin: 0 10px;
+}
+
+div#editor {
+    border: .5px solid rgb(233, 233, 233);
+}
+
+.thumb-product {
+    width: 30%;
+    height: auto;
+    border: .3px solid rgb(206, 206, 206);
+
+}
+
+.o-images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-container {}
+
+._1-img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.r-img {
+    width: 100%;
+    border: .3px solid rgb(197, 197, 197);
+}
+
+.fa-minus-circle {
+    position: relative;
+    cursor: pointer;
+    top: -77%;
+    right: -45%;
+}

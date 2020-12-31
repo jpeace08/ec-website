@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+
+    padding: 3% 2%;
+
+    border-radius: 5px;
+
+    margin: 20px auto;
+
+    scroll-padding: auto;
+
+    background: white;
+
+    position: relative;
+
+    top: 20%;
+
+    left: 1%;
+
+    width: 50%;
+
+    box-shadow: 0px 0px 30px -16px #000000d1;
+
+    border: .5px solid #ececec;
+
+    scroll-margin: initial;
+
+    scroll-behavior: smooth;
+}
+
+.form-container * {
+    margin: 10px 0;
+}
+
+label.form-check-label {
+    margin: 0 10px;
+}
+
+div#editor{
+    border: .5px solid rgb(233, 233, 233);
+}

@@ -1,0 +1,33 @@
+
+
+.cartbox{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    /* min-height: 500px; */
+    border-radius: 3px;
+    border: .5px solid #ececec;
+    box-shadow: 0px 0px 8px -4px #000000c7;
+    padding: 20px 10px;
+}
+
+.pr__image img{
+    width: 100%;
+}
+
+.products .product-item {
+    padding: 10px 5px;
+    border-bottom: .5px solid rgb(236, 236, 236);
+}
+
+.pr__action span.fas,
+.pr__action i {
+    cursor: pointer;
+}
+
+._404 {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 300px;
+}

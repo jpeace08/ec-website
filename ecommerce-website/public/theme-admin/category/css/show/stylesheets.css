@@ -1,0 +1,44 @@
+span[data-category-active]{
+    padding: 7px 0px;
+    display: block;
+    width: 50%;
+    margin-top: 5px;
+    color: #313131;
+    cursor: pointer;
+        display: block;
+        margin: auto;
+}
+
+table {
+    text-align: center !important;
+}
+
+.form-container {
+    margin: auto;
+    position: fixed !important;
+    width: 40%;
+    padding: 30px 28px;
+    top: 20%;
+    border-radius: 5px;
+    left: 40%;
+    height: auto;
+    /* position: relative; */
+    box-shadow: 0px 1px 6px -2px #000000c2;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.hide{
+    display: none;
+    
+}
+
+#save, #cancel {
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-group {
+    display: flex;
+    margin: auto;
+}
